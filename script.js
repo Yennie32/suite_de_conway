@@ -36,7 +36,3 @@ console.log(decritChaine("aabbca"));
 decritChaine("ab")      // renvoie "1a1b"
 decritChaine("aabbca")  // renvoie "2a2b1c1a"
 //______ETAPE 3_____
-function suite_de_conway(string) {
-    
-    
-}
