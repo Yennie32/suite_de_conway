@@ -55,10 +55,17 @@ function suite_de_conway(carac, n) {
 // console.log(suite_de_conway("a", 3));
 // console.log(suite_de_conway("1", 3));
 
+function ask_user (){
+    let caracter = prompt("Feed me a letter !");
+    let number = parseInt(prompt("How high ?"));
+    const content = suite_de_conway(caracter, number);
+    return content
+}
+
 // Création du contenu HTML
 const body = document.querySelector("body");
 
-const content = suite_de_conway("a", 12);
+const content = ask_user();
 content.forEach((item) => {
   const para = document.createElement("p");
   para.style.textAlign = "center";
