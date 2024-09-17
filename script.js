@@ -33,12 +33,12 @@ function decritChaine(string) {
 // console.log(decritChaine("ab"));
 // console.log(decritChaine("aabbca"));
 
-<<<<<<< HEAD
+
 
 decritChaine("ab")      // renvoie "1a1b"
 decritChaine("aabbca")  // renvoie "2a2b1c1a"
 //______ETAPE 3_____
-=======
+
 decritChaine("ab"); // renvoie "1a1b"
 decritChaine("aabbca"); // renvoie "2a2b1c1a"
 //______ETAPE 3_____
@@ -79,4 +79,4 @@ content.forEach((item) => {
 
   body.appendChild(para);
 });
->>>>>>> 2ef529c964fe147b99d1e51208330f7a50de6ed1
+
