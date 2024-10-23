@@ -2,6 +2,7 @@
 
  Exercice n°11 - Ada Tech School
 
+Réalisé en mob avec @Julien8387 et @Driss292
 Langages : HTML, JS
 
 Décrire chaîne de caractères selon le principe de la suite de Conway ou ue suite "audioactive" :
